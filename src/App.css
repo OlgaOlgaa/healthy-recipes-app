@@ -81,19 +81,7 @@ font-size: 20px;
   margin-right: auto;
   box-shadow: 0 0 30px 30px #fdf4f8;
 
-/* }
-.p-recipes{
-  
-  /* border: 2px solid #2e9c22;
-  background-color: #ccecbb;
-  border-color: #71bd60;
-  padding: 15px;
-  color: #2e9c22;
- border-radius: 10px;
- width: 20%;
-display: flex;
-justify-content: center; */
-} */
+
 .p-recipes:hover{
   background-color: #91ec83;
 }
