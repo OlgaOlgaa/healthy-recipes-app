@@ -1,0 +1,17 @@
+.active {
+    padding: 10px 30px;
+    border: 2px solid #6d6868;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+    
+    .default {
+    padding: 10px 30px;
+    border: 2px solid #71bd60;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+    
+    .content {
+    padding: 50px 30px;
+    }

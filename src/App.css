@@ -1,38 +1,301 @@
-.App {
+body{
+  background-color: #fdc1e3;
+}
+h1{
+  color: #fef1fa;
+  margin: auto;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-family: 'Source Sans 3', sans-serif;
+}
+.greenBody {
+  background-color: #a4f896;
+  width: 70%;
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 30px 30px #fdf4f8;
+ 
+}
+.greenLightBlock{
+  background-color: #e4ffe0;
+  width: 60%;
+  height: 40%;
+  margin: auto;
+  border-radius: 20px;
+}
+.healthyMeal{ 
+  text-align: center ;
+  color: #f0fcec;
+  font-size: 40px;
+  font-family: 'Caveat', cursive;
+  
+}
+h3{
+  color:#ee2a99;
+  font-size: 35px;
   text-align: center;
-}
+  font-family: 'Source Sans 3', sans-serif;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.par-home{
+  color: #719a6c;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Source Sans 3', sans-serif;
 }
+.btn{
+ margin: auto;
+ display: block;
+ background-color:#f22397 ;
+ color: #fed1e9;
+ border: none;
+ box-shadow: 0 0 10px 5px #fdf4f8;
+ padding: 20px;
+ width: 30%;
+ border-radius: 10px;
+margin-top: 70px;
+font-family: 'Source Sans 3', sans-serif;
+font-size: 20px;
+}
+.header-home{
+  display: flex;
+  text-align: center ;
+  color: #f0fcec;
+  font-size: 40px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+.header-reciepes{
+  color: #fb830b;
+  text-align: center ;
+  font-size: 40px;
+  font-family: 'Caveat', cursive;
+  text-transform: uppercase;
+}
+.body-recipes, .articles{
+  background-color: #ccecbb;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 30px 30px #fdf4f8;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* }
+.p-recipes{
+  
+  /* border: 2px solid #2e9c22;
+  background-color: #ccecbb;
+  border-color: #71bd60;
+  padding: 15px;
+  color: #2e9c22;
+ border-radius: 10px;
+ width: 20%;
+display: flex;
+justify-content: center; */
+} */
+.p-recipes:hover{
+  background-color: #91ec83;
+}
+.p-calories{
+ padding: 10px;
+  border: 2px solid #2e9c22;
+
+
+  color: #6d6868;
+ border-radius: 10px;
+ width: 20%;
+margin: auto;
+margin-bottom: 10px;
+
+
+}
+.weekDays{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+ 
+}
+.btn-weekday{
+  background-color: #f87ab5;
+  border: none;
+  color: #f4fdf0;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.btn-weekday:hover{
+  background-color: #ee2a99;
+}
+.par-recipes{
+  color: #f22397;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+.default{
+  display: flex;
+  flex-direction: column;
+}
+.active{
+  display: flex;
+  flex-direction: column;
+}
+.nameMeal{
+ font-weight: bold;
+}
+.articles{
+  background-color: #ccecbb;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 60%;
+  padding: 15px;
+  margin-top: 30px;
+  border: 2px solid white;
+} 
+
+.tabsHeader{
+ font-size: 50px;
+}
+p{
+  line-height: 150%
+}
+
+.slider{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+.btnSlider{
+  background-color: #a4f896;
+  border: none;
+  color: #6d6868;
+  padding: 10px;
+}
+.btnSlider:hover{
+  background-color: #ee2a99;
+  color: #292829;
+}
+.description{
+ color: #ee2a98;
+ font-size: 25px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+font-family: 'Source Sans 3', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  border: 4px solid aliceblue;
+  border-radius: 10px;
+  padding: 15px;
+  animation: opacityChange 5s infinite linear;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 18px;
+}
+.link{
+ padding: 10px 40px;
+ text-decoration: none;
+ color: aliceblue;
+ text-transform: uppercase;
+ font-family: 'Source Sans 3', sans-serif;
+}
+.parts{
+  display: flex;
+justify-content: space-evenly;
+}
+.image{
+  width: 500px;
+  height: 350px;
+}
+.meals{
+  display: flex;
+  flex-wrap: wrap;
+}
+.foodRecipes{
+ flex-grow: 1;
+ flex-basis: 16%;
+ padding: 2%;
+}
+.nutritionProgram{
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+}
+.dayFoodImage{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+ 
+ 
+}
+.everyDay{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.plate{
+  width: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.containerAccordion{
+  color: #6d6868;
+}
+@media all and (max-width:1000px){
+h1{
+  font-size: 30px;
+}
+.greenLightBlock{
+  height: 20%;
+}
+h3{
+  font-size: 20px;
+}
+.par-home{
+  font-size: 15px;
+}
+.plate{
+  display: none;
+}
+.btn{
+  font-size: 15px;
+  padding: 10px;
+}
+.homeMeals{
+  height: 300px;
+  width: 300px;
+}
+.raspberryImage{
+  width: 100px;
+}
+.btn-weekday{
+  padding: 5px;
+  font-size: 7px;
+}
+.weekDays{
+  padding: 0px;
+}
+.containerAccordion{
+ padding: 5px;
+}
+.par-recipes{
+  font-size: 15px;
+}
+.p-recipes{
+font-size: 15px;  
+}
+img {
+  width:100px ;
+  height: 100px;
+}
+.greenRecipes{
+  padding: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

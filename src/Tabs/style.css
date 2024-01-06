@@ -1,0 +1,20 @@
+.btn_tabs{
+    font-size: 18px;
+    background-color: #fed1e9;
+    border: 2px solid #f0fcec;
+   padding: 10px;
+   font-family: 'Source Sans 3', sans-serif;
+   color: #6d6868;
+}
+.btn_tabs:hover{
+    background-color: #f87ab5;
+}
+.tabs{
+    font-family: 'Source Sans 3', sans-serif;
+}
+.par-recipes{
+    font-family: 'Source Sans 3', sans-serif;  
+}
+p{
+    color: #6d6868;
+}

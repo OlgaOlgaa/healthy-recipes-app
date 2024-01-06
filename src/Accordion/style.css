@@ -1,0 +1,18 @@
+.active {
+    padding: 10px 30px;
+    border: 2px solid red;
+    cursor: pointer;
+    }
+    
+    .default {
+    padding: 10px 30px;
+    border: 2px solid #71bd60;
+    cursor: pointer;
+    }
+    
+    .content {
+    padding: 50px 30px;
+    }
+    img{
+        border-radius: 10px;
+    }
